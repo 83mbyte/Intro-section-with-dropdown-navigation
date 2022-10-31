@@ -351,6 +351,12 @@ ul.menuRow li.linkIcon:hover .dropDownContainer {
   ul.menuRow li.linkIcon {
     width: 100%;
   }
+  .drawerSidebar .headerLoginContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    opacity: 1;
+  }
 }
 
 @media (max-width: 475px) {
