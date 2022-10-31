@@ -120,13 +120,13 @@ ul.menuRow li {
   margin-bottom: 25px;
 }
 ul.menuRow li.linkIcon {
-  background-image: url("images/icon-arrow-down.svg");
+  background-image: url("../images/icon-arrow-down.svg");
   background-repeat: no-repeat;
   background-position: right;
   padding-right: 15px;
 }
 ul.menuRow li.linkIcon:hover {
-  background-image: url("images/icon-arrow-up.svg");
+  background-image: url("../images/icon-arrow-up.svg");
   color: hsl(0, 0%, 8%);
 }
 .sideBarMenu ul.menuRow li.linkIcon {
@@ -201,7 +201,7 @@ ul.menuRow li.linkIcon:hover .dropDownContainer {
   opacity: 0;
   height: 25px;
   display: block;
-  background-image: url("images/icon-menu.svg");
+  background-image: url("../images/icon-menu.svg");
   background-repeat: no-repeat;
   transition: width 0.8s, opacity 0.8s linear;
 }
