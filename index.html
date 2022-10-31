@@ -18,7 +18,7 @@
     </title>
   </head>
   <body onload="drawerFunc()">
-    <div class="drawerContainer" id="drawerContainer">
+    <div class="drawerContainer" id="drawerContainer" role="complementary">
       <!-- backdrop -->
       <div class="drawerOverlay"></div>
       <!-- sidebar -->
@@ -81,8 +81,9 @@
         </div>
       </div>
     </div>
+
     <div class="bodyContainer">
-      <div class="headerContainer">
+      <div class="headerContainer" role="navigation">
         <div class="logo"><span class="bold">snap</span></div>
         <div class="navygationContainer">
           <div class="navyLinks">
@@ -146,7 +147,7 @@
         <div class="menuBurger" id="menuBurger"></div>
       </div>
 
-      <div class="introContainer">
+      <div class="introContainer" role="main">
         <div class="first">
           <div class="introData">
             <h1>Make remote work</h1>
@@ -183,9 +184,5 @@
         </div>
       </div>
     </div>
-
-    <!-- <script>
-      alert("TODO::: navigation and styles!");
-    </script> -->
   </body>
 </html>
