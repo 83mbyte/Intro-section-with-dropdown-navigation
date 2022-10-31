@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Epilogue:wght@500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <script src="./script.js"></script>
+    <title>
+      Intro section with dropdown navigation | FrontendMentor Chanllenge
+    </title>
+  </head>
+  <body onload="drawerFunc()">
+    <div class="drawerContainer" id="drawerContainer">
+      <!-- backdrop -->
+      <div class="drawerOverlay"></div>
+      <!-- sidebar -->
+      <div class="drawerSidebar" id="drawerSidebar">
+        <div class="drawerClose" id="drawerClose">
+          <img src="./images/icon-close-menu.svg" alt="close" />
+        </div>
+        <div class="sideBarMenu">
+          <ul class="menuRow">
+            <li class="linkIcon">
+              <a href="#">Features</a>
+              <div class="dropDownContainer">
+                <div class="dropDownContent">
+                  <div class="dropDownItem">
+                    <div class="dropDownItemIcon">
+                      <img src="/images/icon-todo.svg" alt="todo" />
+                    </div>
+                    <div><a href="#">Todo List</a></div>
+                  </div>
+                  <div class="dropDownItem">
+                    <div class="dropDownItemIcon">
+                      <img src="/images/icon-calendar.svg" alt="calendar" />
+                    </div>
+                    <div><a href="#">Calendar</a></div>
+                  </div>
+                  <div class="dropDownItem">
+                    <div class="dropDownItemIcon">
+                      <img src="/images/icon-reminders.svg" alt="reminders" />
+                    </div>
+                    <div><a href="#">Reminders</a></div>
+                  </div>
+                  <div class="dropDownItem">
+                    <div class="dropDownItemIcon">
+                      <img src="/images/icon-planning.svg" alt="planning" />
+                    </div>
+                    <div><a href="#">Planning</a></div>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="linkIcon">
+              <a href="#">Company</a>
+              <div class="dropDownContainer">
+                <div class="dropDownContent">
+                  <div class="dropDownItem">
+                    <div><a href="#">History</a></div>
+                  </div>
+                  <div class="dropDownItem">
+                    <div><a href="#">Our Team</a></div>
+                  </div>
+                  <div class="dropDownItem">
+                    <div><a href="#">Blog</a></div>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li><a href="#">Careers</a></li>
+            <li><a href="#">About</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="bodyContainer">
+      <div class="headerContainer">
+        <div class="logo"><span class="bold">snap</span></div>
+        <div class="navygationContainer">
+          <div class="navyLinks">
+            <ul class="menuRow">
+              <li class="linkIcon">
+                <a href="#">Features</a>
+                <div class="dropDownContainer dropDownMenuLeft">
+                  <div class="dropDownContent">
+                    <div class="dropDownItem">
+                      <div class="dropDownItemIcon">
+                        <img src="/images/icon-todo.svg" alt="todo" />
+                      </div>
+                      <div><a href="#">Todo List</a></div>
+                    </div>
+                    <div class="dropDownItem">
+                      <div class="dropDownItemIcon">
+                        <img src="/images/icon-calendar.svg" alt="calendar" />
+                      </div>
+                      <div><a href="#">Calendar</a></div>
+                    </div>
+                    <div class="dropDownItem">
+                      <div class="dropDownItemIcon">
+                        <img src="/images/icon-reminders.svg" alt="reminders" />
+                      </div>
+                      <div><a href="#">Reminders</a></div>
+                    </div>
+                    <div class="dropDownItem">
+                      <div class="dropDownItemIcon">
+                        <img src="/images/icon-planning.svg" alt="planning" />
+                      </div>
+                      <div><a href="#">Planning</a></div>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="linkIcon">
+                <a href="#">Company</a>
+                <div class="dropDownContainer">
+                  <div class="dropDownContent">
+                    <div class="dropDownItem">
+                      <div><a href="#">History</a></div>
+                    </div>
+                    <div class="dropDownItem">
+                      <div><a href="#">Our Team</a></div>
+                    </div>
+                    <div class="dropDownItem">
+                      <div><a href="#">Blog</a></div>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li><a href="#">Careers</a></li>
+              <li><a href="#">About</a></li>
+            </ul>
+          </div>
+          <div class="headerLoginContainer">
+            <a href="#">Login</a>
+            <a href="#" class="aButton">Register</a>
+          </div>
+        </div>
+        <div class="menuBurger" id="menuBurger"></div>
+      </div>
+
+      <div class="introContainer">
+        <div class="first">
+          <div class="introData">
+            <h1>Make remote work</h1>
+            <p>
+              Get your team in sync, no matter your location. Streamline
+              processes, create team rituals, and watch productivity soar.
+            </p>
+            <a href="#" class="aButtonDark"
+              ><span class="bold">Learn More</span></a
+            >
+          </div>
+          <div class="clientsLogos">
+            <div class="item">
+              <img src="/images/client-databiz.svg" alt="databiz" />
+            </div>
+            <div class="item">
+              <img src="/images/client-audiophile.svg" alt="audiophile" />
+            </div>
+            <div class="item">
+              <img src="/images/client-meet.svg" alt="meet" />
+            </div>
+            <div class="item">
+              <img src="/images/client-maker.svg" alt="maker" />
+            </div>
+          </div>
+        </div>
+        <div class="introImage">
+          <div class="imgDesktop">
+            <img src="/images/image-hero-desktop.png" alt=""image-hero" />
+          </div>
+          <div class="imgMobile">
+            <img src="/images/image-hero-mobile.png" alt=""image-hero-mobile" />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- <script>
+      alert("TODO::: navigation and styles!");
+    </script> -->
+  </body>
+</html>
